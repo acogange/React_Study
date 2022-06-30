@@ -13,7 +13,7 @@ const MyComponent=props=>{
 MyComponent.defaultProps={
     name:"김효정"
 };
-MyComponent.PropTypes={
+MyComponent.propTypes={
     name: PropTypes.string,
     favoritNum: PropTypes.number.isRequired
 };
