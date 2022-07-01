@@ -17,8 +17,8 @@ class App extends Component {
     return (
       // string: "" integer: {} 으로 props 전달
       //<MyComponent name="변백현" favoritNum={5}>웅잉</MyComponent>
-      <Counter/>
-      //<Info/>
+      //<Counter/>
+      <Info/>
     );
   }
 }
