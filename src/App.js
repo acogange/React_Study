@@ -7,6 +7,7 @@ import ValidationSample from './component/chap5/ValidationSample';
 import ScrollBox from './component/chap5/ScrollBox';
 import { render } from '@testing-library/react';
 import { Component } from 'react';
+import IterationSample from './component/chap6/IterationSample';
 
 class App extends Component {
   render() {
@@ -16,10 +17,11 @@ class App extends Component {
       //<Counter></Counter>
       //<Say/>
       //<ValidationSample/>
-      <div>
-      <ScrollBox ref={(ref)=>this.ScrollBox=ref}></ScrollBox>
-      <button onClick={()=>this.ScrollBox.scrollToBottom()}>go to bottom</button>
-      </div>
+      // <div>
+      // <ScrollBox ref={(ref)=>this.ScrollBox=ref}></ScrollBox>
+      // <button onClick={()=>this.ScrollBox.scrollToBottom()}>go to bottom</button>
+      // </div>
+      <IterationSample></IterationSample>
     );
   }
 }
