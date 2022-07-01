@@ -8,6 +8,7 @@ import ScrollBox from './component/chap5/ScrollBox';
 import { render } from '@testing-library/react';
 import { Component } from 'react';
 import IterationSample from './component/chap6/IterationSample';
+import LifeCycleSample from './component/chap7/LifeCycleSample';
 
 class App extends Component {
   render() {
@@ -21,7 +22,8 @@ class App extends Component {
       // <ScrollBox ref={(ref)=>this.ScrollBox=ref}></ScrollBox>
       // <button onClick={()=>this.ScrollBox.scrollToBottom()}>go to bottom</button>
       // </div>
-      <IterationSample></IterationSample>
+      //<IterationSample></IterationSample>
+      <LifeCycleSample/>
     );
   }
 }
